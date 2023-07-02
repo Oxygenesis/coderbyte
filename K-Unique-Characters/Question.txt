@@ -1,0 +1,39 @@
+
+Have the function KUniqueCharacters(str, k) take the `str`
+parameter being passed and find the longest substring that contains `k` unique characters.
+Your program should return the longest substring in alphabetical order.
+For example, with the input "aabbbcdd" and `k = 3`, the output should be "bbcdd"
+because of the substring "bdc".
+
+---
+
+In this coding question, you need to find the longest substring in the given string `str`
+that contains `k` unique characters. The substring should be returned in alphabetical order.
+
+For example, in the input "aabbbcdd" and `k = 3`, you need to find the longest
+substring that has 3 unique characters. In this case, the longest substring is "bbcdd",
+which contains the characters 'b', 'c', and 'd'.
+The substring is returned in alphabetical order, so the expected output is "bbcdd".
+
+To solve this problem, you will need to come up with an algorithm that iterates through the string,
+keeps track of the unique characters, and finds the longest substring that meets the criteria.
+
+
+
+Apologies for the confusion earlier. Here's the corrected coding question "K Unique Characters" from Coderbyte:
+
+---
+
+K Unique Characters:
+
+Have the function KUniqueCharacters(str, k) take the `str` parameter being passed and find the longest substring that contains exactly `k` unique characters. Your program should return the longest substring in the input string. If there are multiple substrings with the same length, return the substring that appears first in the string. If there are no substrings with exactly `k` unique characters, return the string "not possible".
+
+For example, with the input "abcba" and `k = 2`, the output should be "bcb" because it is the longest substring with exactly 2 unique characters.
+
+---
+
+In this coding question, you need to find the longest substring in the given string `str` that contains exactly `k` unique characters. The substring should be returned as the output. If there are multiple substrings with the same length, you should return the substring that appears first in the string. If there are no substrings with exactly `k` unique characters, the output should be "not possible".
+
+For example, in the input "abcba" and `k = 2`, the longest substring with exactly 2 unique characters is "bcb". It contains the characters 'b' and 'c', and it is the longest substring that meets the criteria. Hence, the expected output is "bcb".
+
+To solve this problem, you will need to come up with an algorithm that iterates through the string, keeps track of the unique characters, and finds the longest substring that has exactly `k` unique characters.

@@ -1,0 +1,21 @@
+Have the function `Consecutive(arr)` take an array of integers
+and return the minimum number of integers needed to make the contents
+of the array consecutive from the lowest number to the highest number.
+For example, if `arr` contains `[4, 8, 6]`, then the output should be `2`
+because two numbers need to be added to the array (5 and 7) to make it a consecutive array from 4 to 8.
+Negative numbers may be entered as well.
+
+**Examples:**
+- Input: `[4, 8, 6]`
+  Output: `2`
+
+- Input: `[5, 10, 15]`
+  Output: `8`
+
+**Note:**
+- The input array will always contain at least two integers.
+- The integers in the array may be positive, negative, or zero.
+- The integers in the array will not necessarily be sorted.
+
+Your task is to write a function, `Consecutive(arr)`,
+that calculates and returns the minimum number of integers needed to make the given array consecutive.

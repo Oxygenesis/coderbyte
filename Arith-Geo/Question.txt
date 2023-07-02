@@ -1,0 +1,24 @@
+Have the function ArithGeo(arr) take an array of integers arr and return the string "Arithmetic" if the sequence follows an arithmetic pattern or return "Geometric" if it follows a geometric pattern. If the sequence doesn't follow either pattern, return -1.
+
+An arithmetic sequence is one where the difference between consecutive terms is constant, and a geometric sequence is one where the ratio between consecutive terms is constant.
+
+Examples:
+
+Input: 5, 10, 15, 20, 25
+Output: "Arithmetic"
+Input: 2, 4, 8, 16, 32
+Output: "Geometric"
+Input: 1, 2, 3, 4, 5, 10, 20, 30
+Output: -1
+Note:
+
+The input array will always contain at least two elements.
+The input array will only contain integers.
+The input array may not be sorted.
+Your task is to write a function, ArithGeo(arr), that determines whether the given array follows an arithmetic or geometric pattern, or if it doesn't follow either pattern.
+
+Good luck!
+
+
+
+

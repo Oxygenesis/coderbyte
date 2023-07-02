@@ -1,0 +1,17 @@
+Have the function `FindIntersection(strArr)` read the array of strings stored in `strArr` which will contain two elements: the first element will represent a list of comma-separated numbers sorted in ascending order, and the second element will represent a second list of comma-separated numbers (also sorted). Your goal is to return a comma-separated string containing the numbers that occur in elements of `strArr` in sorted order. If there is no intersection, return the string `"false"`.
+
+**Examples:**
+- Input: `["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]`
+  Output: `"1,4,13"`
+
+- Input: `["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]`
+  Output: `"1,9,10"`
+
+**Note:**
+- The input array will always contain exactly two elements.
+- Each element will be a comma-separated list of numbers.
+- The numbers within each list will be sorted in ascending order.
+- The numbers may be positive or negative integers.
+- If there is no intersection between the two lists, return the string `"false"`.
+
+Your task is to write a function, `FindIntersection(strArr)`, that finds the intersection of the two comma-separated number lists and returns the result as a comma-separated string.
